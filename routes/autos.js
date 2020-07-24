@@ -1,5 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
+const autosController = require('../controller/autosController');
 
-module.export = router;
+router.get('/', autosController.index);
+
+
+module.exports = router;

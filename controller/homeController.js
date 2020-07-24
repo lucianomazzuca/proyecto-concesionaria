@@ -1,5 +1,4 @@
-let fs = require('fs');
-let dbConcesionaria = require('../dbConcesionaria');
+const dbConcesionaria = require('../dbConcesionaria');
 
 
 const homeController = {
@@ -10,9 +9,9 @@ const homeController = {
         res.write('\n\nTenemos sucursales en: \n\n');
         //Mostrar sucursales
         dbConcesionaria.forEach((concesionaria)=>{
-            res.write(` -${concesionaria.sucursal}\n`)  
+            res.write(` -${concesionaria.sucursal}\n`);
         })
-        res.end()
+        res.end();
     },
     
 }
