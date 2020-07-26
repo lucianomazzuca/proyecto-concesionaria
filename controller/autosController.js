@@ -71,7 +71,7 @@ const autosController = {
             res.end(`No tenemos autos de la marca ${marca} con ese color o año`);
         }
         else{
-            res.end();
+            res.end( "\nCantidad de autos: " + cantidadAuto);
         }
 
     }
