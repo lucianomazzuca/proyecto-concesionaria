@@ -21,7 +21,6 @@ const autosController = {
         res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
         let marca = req.params.marca;
         let cantidad = 0;
-        let arrayAutos = [];
 
         res.write('Autos de la marca ' + marca + '\n');
         res.write('-------------------------------------------\n');

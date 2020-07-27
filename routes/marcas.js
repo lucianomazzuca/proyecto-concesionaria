@@ -1,5 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
+const marcasController = require('../controller/marcasController');
 
-module.export = router;
+router.get('/', marcasController.index);
+router.get('/:marca', marcasController.marca)
+
+
+module.exports = router;

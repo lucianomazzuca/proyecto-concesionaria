@@ -35,3 +35,45 @@ module.exports = dbConcesionaria;
 // })
 
 
+
+// let arrayFiltrado = [''];
+
+// dbConcesionaria.forEach(concesionaria => {
+//     concesionaria.autos.forEach(auto => {
+//         for(let i = 0; i < arrayFiltrado.length; i++){
+//             console.log('hola')
+//             if(auto.marca == arrayFiltrado[i]){
+//                 console.log(auto.marca)
+//                 break;
+//             }
+//             else if(auto.marca != arrayFiltrado[arrayFiltrado.length]){
+//                 console.log('')
+//                 arrayFiltrado.push(auto.marca);
+//             }
+//         }
+
+//     })
+// })
+
+
+// console.log(arrayFiltrado.length)
+
+
+// let arrayFiltrado = [];
+// let arrayMarcas = [];
+
+// dbConcesionaria.forEach(concesionaria => {
+//     concesionaria.autos.forEach(auto => {
+//         arrayMarcas.push(auto.marca)
+//     })
+// })
+
+// console.log(arrayMarcas)
+
+// arrayMarcas.forEach(marca => {
+//     if(arrayFiltrado.indexOf(marca) == -1){
+//         arrayFiltrado.push(marca);
+//     }
+// } )
+
+// console.log(arrayFiltrado)
